@@ -140,12 +140,11 @@ class Game:
             self.printGrid()
             
         
-g = Game()
-g.startGame()
+Game().startGame()
 
 
 """
 Assumptions made:
-    - As the problem states 'infinite 2d space', thhere are no 'set' borders to the game space and the gridSize of the grid should grow as neccessary.
+    - As the problem states 'infinite 2d space', thhere are no 'set' borders to the game space and the size of the grid should grow as neccessary.
 
 """
